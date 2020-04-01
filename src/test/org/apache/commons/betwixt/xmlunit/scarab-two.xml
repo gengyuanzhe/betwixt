@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="no"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. 
+-->
+
+<!--
+<!DOCTYPE scarab SYSTEM "/scarab/dtd/scarab-settings.dtd">
+-->
+
+<scarab-settings>
+  
+  <global-attributes>
+    <global-attribute>
+      <name>Description</name>
+      <type>long-string</type>
+      <description>Description</description>
+      <created-date>
+        <format>yyyy-MM-dd HH:mm:ss</format>
+        <timestamp>2002-05-31 13:29:27.0</timestamp>
+      </created-date>
+    </global-attribute>
+  
+    <global-attribute>
+      <name>Functional area</name>
+      <type>Dropdown list</type>
+      <description>Functional area</description>
+      <created-date>
+        <format>yyyy-MM-dd HH:mm:ss</format>
+        <timestamp>2002-05-31 13:29:27.0</timestamp>
+      </created-date>
+      <global-attribute-options>
+        <global-attribute-option>
+          <name>Root</name>
+          <deleted>false</deleted>
+          <child-option>UI</child-option>
+          <weight>1</weight>
+          <preferred-order>1</preferred-order>
+        </global-attribute-option>
+        <global-attribute-option>
+          <name>Root</name>
+          <deleted>false</deleted>
+          <child-option>Code</child-option>
+          <weight>1</weight>
+          <preferred-order>1</preferred-order>
+        </global-attribute-option>
+      </global-attribute-options>
+    </global-attribute>
+  </global-attributes>
+  
+  <global-issue-types>
+    <global-issue-type>
+      <name>Defect</name>
+      <description>An issue in existing feature/functionality.</description>
+      <template>Defect Template</template>
+    </global-issue-type>
+  
+    <global-issue-type>
+      <name>Enhancement</name>
+      <description>Improvement to an existing feature.</description>
+      <template>Enhancement Template</template>
+    </global-issue-type>
+  </global-issue-types>
+  
+  <modules>
+    <module>
+      <id>5</id>
+      <parent>1</parent>
+      <name>Source</name>
+      <owner-id>turbine@tigris.org</owner-id>
+      <description>Source</description>
+      <url>/PacmanJVM/source/</url>
+      <domain></domain>
+      <code>PACS</code>
+    </module>
+  </modules>
+
+</scarab-settings>
